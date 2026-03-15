@@ -1,13 +1,8 @@
-This repository is a curated set of notebooks created that contains neural networks built using PyTorch and goes through the logic of the architecture of the model step by step.
+# PyTorch Neural Network Notebooks
+This repository is a curated set of Jupyter notebooks that build neural networks in PyTorch and explain the model architecture and training logic step by step. It starts from a minimal linear regression and progresses to binary, multiclass, and convolutional models.
 
-- Linear_Regression.ipynb
-Notebook contains a simple linear regression model for synthetic data created for specifically for this purpose. While it is overkill to use a neural network for linear regression, this would be the best introduction to understand how neural networks operate on a granular level before moving onto more complex objectives.
-
-- Binary_Classification.ipynb
-The make_moons dataset from scikit_learn contains datapoints that belong to one of two circles and this factor has been used as the basis to use a neural network to detect if a datapoint will belong to which circle.
-
-- Multiclass_Classification.ipynb
-Synthetic data was generated that belongs to one of five classes. A neural network was developed that can predict what class a future datapoint will belong to.
-
-- CNN.ipynb
-The FashionMNIST dataset contains 70000 gray images that fall into 10 clothing categories. A convolutional neural network was developed that predicts what a future image would be.
+# Notebooks
+- Linear_Regression.ipynb — Simple linear regression on synthetic data to demonstrate forward pass, loss computation, and optimization. Ideal for understanding neural networks at a granular level before tackling complex tasks.
+- Binary_Classification.ipynb — Uses scikit-learn’s make_moons dataset to classify points into one of two interleaving circles with a small feedforward network.
+- Multiclass_Classification.ipynb — Trains a neural network on synthetic data belonging to five classes and predicts the class for new points.
+- Convolutional_Neural_Networks.ipynb — Builds a CNN for FashionMNIST (70,000 grayscale images across 10 clothing categories) to predict the label of unseen images.
